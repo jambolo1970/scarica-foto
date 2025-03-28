@@ -51,28 +51,7 @@ python3 scarica-foto.py
     File credentials.json scaricato da Google Cloud Console (vedi wiki/INSTALL.md)
 
 
----
 
-### 📄 `wiki/INSTALL.md`
-
-```markdown
-# 📥 Guida all'installazione
-
-## 1. 🔧 Installa Python e le dipendenze
-
-Assicurati di avere Python 3.11+ installato:
-
-```bash
-python3 --version
-
-Poi installa i pacchetti necessari:
-```
-pip install -r requirements.txt
-```
-Oppure manualmente:
-```
-pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client tqdm requests
-```
 
 === GESTIONE MULTI-ACCOUNT GOOGLE FOTO ===
 Account disponibili:
