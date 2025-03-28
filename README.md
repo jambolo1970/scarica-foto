@@ -37,27 +37,14 @@ Uno script Python per scaricare tutte le tue foto da Google Foto, supporta:
 
 ---
 
-## 🚀 Avvio rapido
-
-```bash
-git clone https://github.com/tuo-username/google-photos-downloader.git
-cd google-photos-downloader
-pip install -r requirements.txt
-python3 scarica-foto.py
-📦 Requisiti
-
-    Python 3.11+
-
-    File credentials.json scaricato da Google Cloud Console (vedi wiki/INSTALL.md)
-
-
-
 
 === GESTIONE MULTI-ACCOUNT GOOGLE FOTO ===
 Account disponibili:
  1) mario@gmail.com
  2) ➕ Usa un nuovo account Google
-2. 🔑 Crea credenziali su Google Cloud Console
+
+    
+# 🔑 Crea credenziali su Google Cloud Console
 
     Vai su Google Cloud Console
 
@@ -77,9 +64,9 @@ Account disponibili:
 
     Copialo nella stessa cartella dello script
 
-3. ▶️ Avvia lo script
+# ▶️ Avvia lo script
 
-python3 scarica-foto.py
+python3.11 scarica-foto.py
 
 Ti chiederà:
 
@@ -87,7 +74,7 @@ Ti chiederà:
 
     o di autenticarti con uno nuovo (si aprirà il browser)
 
-4. 💾 Dove vengono salvati i file?
+# 💾 Dove vengono salvati i file?
 
     I token di accesso: tokens/token_<email>.json
 
@@ -95,7 +82,7 @@ Ti chiederà:
 
     Le foto: nella cartella scelta al momento del download
 
-5. 📋 Consigli
+# 📋 Consigli
 
     NON committare il file credentials.json o i token
 
@@ -103,12 +90,12 @@ Ti chiederà:
 
     Puoi usare lo script per più account Google senza problemi
 
-6. 🐧 Testato su
+# 🐧 Testato su
 
     Linux Mint 21
 
     openSUSE Leap 15.5
-
+```
 
 ---
 
