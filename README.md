@@ -12,10 +12,15 @@
 
     google-photos-downloader/
 ├── scarica-foto.py
+
 ├── credentials.json       # NON pushare mai
+
 ├── README.md
+
 ├── wiki/
+
 │   └── INSTALL.md
+
 ├── .gitignore
 
 # 📸 Google Photos Downloader (multi-account, con ripresa automatica)
